@@ -1,0 +1,28 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  #puzzleContainer {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* Adjust based on desired piece count */
+    gap: 5px;
+    width: 500px; /* Responsive width */
+    margin: 20px auto;
+    position: relative;
+  }
+  
+  .puzzle-piece {
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+    transform: rotate(0deg);
+    cursor: pointer;
+    transition: none;
+  }
+  
+  #controls {
+    margin-bottom: 20px;
+  }
